@@ -1,0 +1,125 @@
+body
+{
+    background-image: url("../img/mooning.png") !important;
+    background-attachment: fixed;
+}
+
+.text-gradient
+{
+    color: #20A198;
+    font-weight: bold;
+}
+
+.text-loc
+{
+    padding-left: 400px;
+    padding-bottom: 20px;
+}
+
+.feather
+{
+    background-image: url("../img/subtle_white_feathers.png");
+}
+
+.card
+{
+    background-color: #002B37;
+}
+
+.container-color
+{
+    background-color: #002B37;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.card-loc
+{
+    padding-top: 126px;
+}
+
+.card-loc-3
+{
+    padding-left: 388px;
+    padding-top: 122px;
+}
+
+.card-loc-2
+{
+    padding-left: 200px;
+}
+
+a.color
+{
+    color: #002B37;
+}
+
+img.card
+{
+    width: 350px;
+    height: 175px;
+}
+
+.card-size
+{
+    width: 600px
+}
+
+mark.color
+{
+    color: #20A198;
+    background-color: #002B37;
+}
+
+div.special
+{
+    background-color: #002B37;
+}
+
+.loc
+{
+    padding-left: 60px;
+}
+
+.gradient
+{
+    background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+.resize
+{
+    height: 960px;
+}
+
+.slider
+{
+    width: 100%;
+    text-align: center;
+}
+
+#movies img, #movie img
+{
+    width: 80%;
+}
+
+#btnHover:hover 
+{
+    cursor: pointer;
+}
+
+#btnStyle
+{
+    text-align: center;
+}
+
+@media(min-width: 960px){
+    #movies .col-md-3 .more
+    {
+        height: 390px;
+    }
+    
+    #movies .col-md-3 img
+    {
+        height: 240px;
+    }
+}
